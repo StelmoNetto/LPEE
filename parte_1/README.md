@@ -136,3 +136,30 @@ Código-fonte dedicado à declaração, inicialização, leitura, exibição e o
 |**Nº**|**Código fonte**|**Descrição**|
 |---|---|---|
 |1|[numeros_complexos.c](introducao/numeros_complexos/numeros_complexos.c)|Manipulação de números complexos em C usando a biblioteca `<complex.h>` e macros `CMPLX`, `creal` e `cimag`.|
+
+## Fluxo de controle
+Estudo e exemplificação das estruturas condicionais e de repetição em C para controle do fluxo de execução.
+
+### Estruturas condicionais
+Códigos-fonte que exemplificam o uso de condicionais simples, compostas, encadeadas, aninhadas, o operador ternário e a estrutura de seleção múltipla `switch-case`.
+
+|**Nº**|**Código fonte**|**Descrição**|
+|---|---|---|
+|1|[condicional_simples.c](fluxo_de_controle/estruturas_condicionais/condicional_simples.c)|Uso da estrutura condicional simples `if` com uma ou múltiplas instruções no bloco.|
+|2|[retorno_antecipado_para_calculo_do_consumo_de_carros.c](fluxo_de_controle/estruturas_condicionais/retorno_antecipado_para_calculo_do_consumo_de_carros.c)|Uso de retorno antecipado (`return`) para tratamento de erros e validação de dados de entrada.|
+|3|[condicional_composta.c](fluxo_de_controle/estruturas_condicionais/condicional_composta.c)|Uso da estrutura condicional composta `if-else` com controle de blocos de instruções.|
+|4|[condicional_encadeada.c](fluxo_de_controle/estruturas_condicionais/condicional_encadeada.c)|Controle de fluxo utilizando múltiplos desvios condicionais com `if-else-if`.|
+|5|[condicional_encadeada_if.c](fluxo_de_controle/estruturas_condicionais/condicional_encadeada_if.c)|Uso de estruturas condicionais `if` aninhadas (uma dentro de outra) para verificação de limites.|
+|6|[operador_ternario.c](fluxo_de_controle/estruturas_condicionais/operador_ternario.c)|Simplificação de estruturas condicionais simples com o operador ternário `? :`.|
+|7|[condicional_switch.c](fluxo_de_controle/estruturas_condicionais/condicional_switch.c)|Uso da estrutura de seleção de múltiplos casos `switch-case-default`.|
+
+### Estruturas de repetição
+Códigos-fonte demonstrando o uso de laços de repetição (`while`, `do-while`, `for`) e instruções de controle de fluxo em laços (`break`, `continue`).
+
+|**Nº**|**Código fonte**|**Descrição**|
+|---|---|---|
+|1|[repeticao_while.c](fluxo_de_controle/estruturas_de_repeticao/repeticao_while.c)|Uso da estrutura de repetição com teste no início (`while`).|
+|2|[repeticao_do_while.c](fluxo_de_controle/estruturas_de_repeticao/repeticao_do_while.c)|Uso da estrutura de repetição com teste no fim (`do-while`), garantindo ao menos uma execução.|
+|3|[repeticao_for.c](fluxo_de_controle/estruturas_de_repeticao/repeticao_for.c)|Uso da estrutura de repetição com controle de contador (`for`).|
+|4|[repeticao_break.c](fluxo_de_controle/estruturas_de_repeticao/repeticao_break.c)|Uso da instrução de desvio `break` para interrupção precoce de laços de repetição.|
+|5|[repeticao_continue.c](fluxo_de_controle/estruturas_de_repeticao/repeticao_continue.c)|Uso da instrução de desvio `continue` para saltar a iteração atual de um laço de repetição.|
