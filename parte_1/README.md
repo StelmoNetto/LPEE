@@ -159,7 +159,14 @@ Códigos-fonte demonstrando o uso de laços de repetição (`while`, `do-while`,
 |**Nº**|**Código fonte**|**Descrição**|
 |---|---|---|
 |1|[repeticao_while.c](fluxo_de_controle/estruturas_de_repeticao/repeticao_while.c)|Uso da estrutura de repetição com teste no início (`while`).|
-|2|[repeticao_do_while.c](fluxo_de_controle/estruturas_de_repeticao/repeticao_do_while.c)|Uso da estrutura de repetição com teste no fim (`do-while`), garantindo ao menos uma execução.|
-|3|[repeticao_for.c](fluxo_de_controle/estruturas_de_repeticao/repeticao_for.c)|Uso da estrutura de repetição com controle de contador (`for`).|
-|4|[repeticao_break.c](fluxo_de_controle/estruturas_de_repeticao/repeticao_break.c)|Uso da instrução de desvio `break` para interrupção precoce de laços de repetição.|
-|5|[repeticao_continue.c](fluxo_de_controle/estruturas_de_repeticao/repeticao_continue.c)|Uso da instrução de desvio `continue` para saltar a iteração atual de um laço de repetição.|
+|2|[while_com_operador_virgula.c](fluxo_de_controle/estruturas_de_repeticao/while_com_operador_virgula.c)|Encadeamento de leitura de dados e condição de parada no `while` utilizando o operador vírgula (`,`).|
+|3|[somatorio_com_laco_de_repeticao_enquanto_com_contracao.c](fluxo_de_controle/estruturas_de_repeticao/somatorio_com_laco_de_repeticao_enquanto_com_contracao.c)|Cálculo de somatório acumulado em laço `while` utilizando operadores de atribuição compostos (`+=`, `++`).|
+|4|[repeticao_do_while.c](fluxo_de_controle/estruturas_de_repeticao/repeticao_do_while.c)|Uso da estrutura de repetição com teste no fim (`do-while`), garantindo ao menos uma execução.|
+|5|[repeticao_for.c](fluxo_de_controle/estruturas_de_repeticao/repeticao_for.c)|Uso da estrutura de repetição com controle de contador (`for`).|
+|6|[for_com_operador_virgula.c](fluxo_de_controle/estruturas_de_repeticao/for_com_operador_virgula.c)|Uso do operador vírgula (`,`) para inicializar e incrementar múltiplas variáveis no laço `for`.|
+|7|[repeticao_break.c](fluxo_de_controle/estruturas_de_repeticao/repeticao_break.c)|Uso da instrução de desvio `break` para interrupção precoce de laços de repetição.|
+|8|[for_com_partes_vazias.c](fluxo_de_controle/estruturas_de_repeticao/for_com_partes_vazias.c)|Declaração de laço infinito com `for(; ;)` e interrupção controlada via `break`.|
+|9|[repeticao_continue.c](fluxo_de_controle/estruturas_de_repeticao/repeticao_continue.c)|Uso da instrução de desvio `continue` para saltar a iteração atual de um laço de repetição.
+|10|[leitura_com_getchar_e_for_com_problema_no_buffer.c](fluxo_de_controle/estruturas_de_repeticao/leitura_com_getchar_e_for_com_problema_no_buffer.c)|Demonstração do problema de retenção da quebra de linha (`\n`) no buffer de entrada ao usar `getchar()` em laço `for`.|
+|11|[leitura_com_for_e_getchar_com_correcao_do_buffer.c](fluxo_de_controle/estruturas_de_repeticao/leitura_com_for_e_getchar_com_correcao_do_buffer.c)|Tratamento do buffer de entrada ignorando a quebra de linha (`\n`) e ajustando o contador do laço `for`.|
+|12|[leitura_com_for_e_getchar_com_correcao_do_buffer_2.c](fluxo_de_controle/estruturas_de_repeticao/leitura_com_for_e_getchar_com_correcao_do_buffer_2.c)|Limpeza completa do buffer de entrada com laço `while` auxiliar contendo `getchar()` a cada iteração.|
