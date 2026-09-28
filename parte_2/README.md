@@ -44,11 +44,8 @@ Códigos-fonte focados no estudo prático de ponteiros e manipulação de memór
 |15|[ponteiro_duplo.c](ponteiro/ponteiro_duplo.c)|Declaração e uso de ponteiro para ponteiro (ponteiro duplo) com dupla desreferenciação.|
 |16|[indirecao_de_nivel_3.c](ponteiro/indirecao_de_nivel_3.c)|Demonstração de múltiplos níveis de indireção com ponteiro triplo (nível 3) encadeando endereços.|
 
-## Alocação Dinâmica
+### Alocação Dinâmica
 Códigos-fonte demonstrando conceitos fundamentais de alocação dinâmica de memória em C.
-
-### Alocação dinâmica
-Códigos-fonte focados no estudo prático de alocação dinâmica de memória em C.
 
 |**Nº**|**Código fonte**|**Descrição**|
 |---|---|---|
