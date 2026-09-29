@@ -39,14 +39,14 @@ Códigos-fonte focados no estudo prático de ponteiros e manipulação de memór
 |10|[comparacao_ponteiros.c](ponteiro/comparacao_ponteiros.c)|Comparação relacional entre ponteiros e testes de verificação de ponteiro nulo (`NULL`).|
 |11|[acesso_rapido_de_elemento_de_vetor_por_soma_de_ponteiro.c](ponteiro/acesso_rapido_de_elemento_de_vetor_por_soma_de_ponteiro.c)|Acesso a elementos de vetor por deslocamento aritmético a partir do endereço base.|
 |12|[acesso_rapido_de_vetor_por_incremento_de_ponteiro_em_laco.c](ponteiro/acesso_rapido_de_vetor_por_incremento_de_ponteiro_em_laco.c)|Acesso e percorrimento de vetor através do pós-incremento de ponteiro em laço.|
-|9|[acesso_linear_de_elementos_de_matriz_por_soma_de_ponteiro.c](ponteiro/acesso_linear_de_elementos_de_matriz_por_soma_de_ponteiro.c)|Acesso linear aos elementos de uma matriz bidimensional por deslocamento aritmético de ponteiro.|
-|10|[vetor_de_ponteiros.c](ponteiro/vetor_de_ponteiros.c)|Criação e inicialização de um vetor de ponteiros armazenando endereços de memória.|
-|11|[formacao_de_matriz_com_vetor_de_ponteiros.c](ponteiro/formacao_de_matriz_com_vetor_de_ponteiros.c)|Construção de matriz bidimensional a partir de um vetor de ponteiros para vetores.|
-|12|[prevenir_de_alteracao_de_vetor.c](ponteiro/prevenir_de_alteracao_de_vetor.c)|Proteção contra alteração dos elementos de vetor usando ponteiro para constante (`const int *`).|
-|13|[prevenir_de_alteracao_de_ponteiro_e_nao_dos_elementos.c](ponteiro/prevenir_de_alteracao_de_ponteiro_e_nao_dos_elementos.c)|Fixação de endereço com ponteiro constante (`int * const`) permitindo modificar os elementos.|
-|14|[prevenir_de_alteracao_de_ponteiro_e_elementos.c](ponteiro/prevenir_de_alteracao_de_ponteiro_e_elementos.c)|Proteção total contra alteração de ponteiro e elementos com `const int * const`.|
-|15|[ponteiro_duplo.c](ponteiro/ponteiro_duplo.c)|Declaração e uso de ponteiro para ponteiro (ponteiro duplo) com dupla desreferenciação.|
-|16|[indirecao_de_nivel_3.c](ponteiro/indirecao_de_nivel_3.c)|Demonstração de múltiplos níveis de indireção com ponteiro triplo (nível 3) encadeando endereços.|
+|13|[acesso_linear_de_elementos_de_matriz_por_soma_de_ponteiro.c](ponteiro/acesso_linear_de_elementos_de_matriz_por_soma_de_ponteiro.c)|Acesso linear aos elementos de uma matriz bidimensional por deslocamento aritmético de ponteiro.|
+|14|[vetor_de_ponteiros.c](ponteiro/vetor_de_ponteiros.c)|Criação e inicialização de um vetor de ponteiros armazenando endereços de memória.|
+|15|[formacao_de_matriz_com_vetor_de_ponteiros.c](ponteiro/formacao_de_matriz_com_vetor_de_ponteiros.c)|Construção de matriz bidimensional a partir de um vetor de ponteiros para vetores.|
+|16|[prevenir_de_alteracao_de_vetor.c](ponteiro/prevenir_de_alteracao_de_vetor.c)|Proteção contra alteração dos elementos de vetor usando ponteiro para constante (`const int *`).|
+|17|[prevenir_de_alteracao_de_ponteiro_e_nao_dos_elementos.c](ponteiro/prevenir_de_alteracao_de_ponteiro_e_nao_dos_elementos.c)|Fixação de endereço com ponteiro constante (`int * const`) permitindo modificar os elementos.|
+|18|[prevenir_de_alteracao_de_ponteiro_e_elementos.c](ponteiro/prevenir_de_alteracao_de_ponteiro_e_elementos.c)|Proteção total contra alteração de ponteiro e elementos com `const int * const`.|
+|19|[ponteiro_duplo.c](ponteiro/ponteiro_duplo.c)|Declaração e uso de ponteiro para ponteiro (ponteiro duplo) com dupla desreferenciação.|
+|20|[indirecao_de_nivel_3.c](ponteiro/indirecao_de_nivel_3.c)|Demonstração de múltiplos níveis de indireção com ponteiro triplo (nível 3) encadeando endereços.|
 
 ### Alocação Dinâmica
 Códigos-fonte demonstrando conceitos fundamentais de alocação dinâmica de memória em C.
