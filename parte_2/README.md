@@ -1,6 +1,6 @@
 # Parte 2 - Estruturas de Dados e funções
 
-Este diretório contém os códigos-fonte da **Parte 2** da disciplina de Linguagem de Programação, abrangendo conceitos de vetores unidimensionais, matrizes bidimensionais e tridimensionais com diversas abordagens de inicialização; ponteiros e sua aritmética, alocação dinâmica e matrizes de ponteiros.
+Este diretório contém os códigos-fonte da **Parte 2** da disciplina de Linguagem de Programação, abrangendo conceitos de vetores unidimensionais, matrizes bidimensionais e tridimensionais com diversas abordagens de inicialização; ponteiros e sua aritmética, alocação dinâmica, sub-rotinas, ponteiros para funções e funções com parâmetros variáveis.
 
 ## Vetores e Matrizes Multidimensionais
 Códigos-fonte demonstrando declaração, preenchimento, técnicas de inicialização (em lista linear, com chaves aninhadas e inicialização designada) para arranjos unidimensionais e multidimensionais e indexação em C.
@@ -32,9 +32,13 @@ Códigos-fonte focados no estudo prático de ponteiros e manipulação de memór
 |3|[alteracao_indireta.c](ponteiro/alteracao_indireta.c)|Alteração indireta do valor de variáveis na memória através de desreferenciação de ponteiro.|
 |4|[atribuicao_de_ponteiros.c](ponteiro/atribuicao_de_ponteiros.c)|Atribuição entre ponteiros do mesmo tipo para apontarem para o mesmo endereço de memória.|
 |5|[ponteiro_null_e_void.c](ponteiro/ponteiro_null_e_void.c)|Uso de ponteiro genérico (`void*`) para conversão de endereços e inicialização com `NULL`.|
-|6|[soma_subtraca_incremento_decremento_ponteiro.c](ponteiro/soma_subtraca_incremento_decremento_ponteiro.c)|Aritmética de ponteiros com operações de soma, subtração, pré-incremento e pré-decremento.|
-|7|[comparacao_ponteiros.c](ponteiro/comparacao_ponteiros.c)|Comparação relacional entre ponteiros e testes de verificação de ponteiro nulo (`NULL`).|
-|8|[acesso_rapido_de_vetor_por_incremento_de_ponteiro_em_laco.c](ponteiro/acesso_rapido_de_vetor_por_incremento_de_ponteiro_em_laco.c)|Acesso e percorrimento de vetor através do pós-incremento de ponteiro em laço.|
+|6|[atribuicao_de_ponteiros_de_tipos_diferentes.c](ponteiro/atribuicao_de_ponteiros_de_tipos_diferentes.c)|Conversão explícita de ponteiro (casting) entre tipos incompatíveis para acesso a bytes.|
+|7|[soma_subtraca_incremento_decremento_ponteiro.c](ponteiro/soma_subtraca_incremento_decremento_ponteiro.c)|Aritmética de ponteiros com operações de soma, subtração, pré-incremento e pré-decremento.|
+|8|[incremento_de_ponteiro_char_de_ponteiro_int.c](ponteiro/incremento_de_ponteiro_char_de_ponteiro_int.c)|Navegação byte a byte em variável inteira utilizando pré-incremento de ponteiro para caractere.|
+|9|[adicao_de_ponteiro_char_de_ponteiro_int.c](ponteiro/adicao_de_ponteiro_char_de_ponteiro_int.c)|Acesso a bytes de variável inteira através de deslocamento com ponteiro para caractere.|
+|10|[comparacao_ponteiros.c](ponteiro/comparacao_ponteiros.c)|Comparação relacional entre ponteiros e testes de verificação de ponteiro nulo (`NULL`).|
+|11|[acesso_rapido_de_elemento_de_vetor_por_soma_de_ponteiro.c](ponteiro/acesso_rapido_de_elemento_de_vetor_por_soma_de_ponteiro.c)|Acesso a elementos de vetor por deslocamento aritmético a partir do endereço base.|
+|12|[acesso_rapido_de_vetor_por_incremento_de_ponteiro_em_laco.c](ponteiro/acesso_rapido_de_vetor_por_incremento_de_ponteiro_em_laco.c)|Acesso e percorrimento de vetor através do pós-incremento de ponteiro em laço.|
 |9|[acesso_linear_de_elementos_de_matriz_por_soma_de_ponteiro.c](ponteiro/acesso_linear_de_elementos_de_matriz_por_soma_de_ponteiro.c)|Acesso linear aos elementos de uma matriz bidimensional por deslocamento aritmético de ponteiro.|
 |10|[vetor_de_ponteiros.c](ponteiro/vetor_de_ponteiros.c)|Criação e inicialização de um vetor de ponteiros armazenando endereços de memória.|
 |11|[formacao_de_matriz_com_vetor_de_ponteiros.c](ponteiro/formacao_de_matriz_com_vetor_de_ponteiros.c)|Construção de matriz bidimensional a partir de um vetor de ponteiros para vetores.|
@@ -43,10 +47,6 @@ Códigos-fonte focados no estudo prático de ponteiros e manipulação de memór
 |14|[prevenir_de_alteracao_de_ponteiro_e_elementos.c](ponteiro/prevenir_de_alteracao_de_ponteiro_e_elementos.c)|Proteção total contra alteração de ponteiro e elementos com `const int * const`.|
 |15|[ponteiro_duplo.c](ponteiro/ponteiro_duplo.c)|Declaração e uso de ponteiro para ponteiro (ponteiro duplo) com dupla desreferenciação.|
 |16|[indirecao_de_nivel_3.c](ponteiro/indirecao_de_nivel_3.c)|Demonstração de múltiplos níveis de indireção com ponteiro triplo (nível 3) encadeando endereços.|
-|17|[atribuicao_de_ponteiros_de_tipos_diferentes.c](ponteiro/atribuicao_de_ponteiros_de_tipos_diferentes.c)|Conversão explícita de ponteiro (casting) entre tipos incompatíveis para acesso a bytes.|
-|18|[adicao_de_ponteiro_char_de_ponteiro_int.c](ponteiro/adicao_de_ponteiro_char_de_ponteiro_int.c)|Acesso a bytes de variável inteira através de deslocamento com ponteiro para caractere.|
-|19|[incremento_de_ponteiro_char_de_ponteiro_int.c](ponteiro/incremento_de_ponteiro_char_de_ponteiro_int.c)|Navegação byte a byte em variável inteira utilizando pré-incremento de ponteiro para caractere.|
-|20|[acesso_rapido_de_elemento_de_vetor_por_soma_de_ponteiro.c](ponteiro/acesso_rapido_de_elemento_de_vetor_por_soma_de_ponteiro.c)|Acesso a elementos de vetor por deslocamento aritmético a partir do endereço base.|
 
 ### Alocação Dinâmica
 Códigos-fonte demonstrando conceitos fundamentais de alocação dinâmica de memória em C.
