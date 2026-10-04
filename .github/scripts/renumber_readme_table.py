@@ -81,17 +81,39 @@ def process_file(path: Path) -> bool:
     return True
 
 def main() -> int:
-    if len(sys.argv) < 2:
-        print("Usage: renumber_readme_table.py <file1> [<file2> ...]", file=sys.stderr)
-        return 2
+    import glob
 
-    for raw in sys.argv[1:]:
-        file_path = Path(raw)
-        if file_path.exists():
+    patterns = sys.argv[1:] if len(sys.argv) > 1 else ["parte_*/README.md", "pasta_*/README.md"]
+
+    files: list[Path] = []
+    for pattern in patterns:
+        if any(char in pattern for char in "*?[]"):
+            matched = [Path(p) for p in glob.glob(pattern, recursive=True)]
+            files.extend(matched)
+        else:
+            files.append(Path(pattern))
+
+    seen: set[Path] = set()
+    unique_files: list[Path] = []
+    for f in files:
+        try:
+            resolved = f.resolve()
+        except OSError:
+            resolved = f
+        if resolved not in seen:
+            seen.add(resolved)
+            unique_files.append(f)
+
+    if not unique_files:
+        print("No files found to process.")
+        return 0
+
+    for file_path in unique_files:
+        if file_path.exists() and file_path.is_file():
             if process_file(file_path):
-                print(f"Updated: {raw}")
+                print(f"Updated: {file_path.as_posix()}")
             else:
-                print(f"No changes: {raw}")
+                print(f"No changes: {file_path.as_posix()}")
 
     return 0
 

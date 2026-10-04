@@ -3,7 +3,8 @@ name: Renumber README Nº column
 on:
   push:
     paths:
-      - 'parte_1/README.md'
+      - 'parte_*/README.md'
+      - 'pasta_*/README.md'
   workflow_dispatch:
 
 permissions:
@@ -27,12 +28,13 @@ jobs:
       - name: Renumber Nº column
         shell: bash
         run: |
-          python .github/scripts/renumber_readme_table.py 'parte_1/README.md'
+          python .github/scripts/renumber_readme_table.py
 
       - name: Commit and push changes
         shell: bash
         run: |
-          if git diff --quiet -- 'parte_1/README.md'; then
+          MODIFIED=$(git diff --name-only -- 'parte_*/README.md' 'pasta_*/README.md' 2>/dev/null || true)
+          if [ -z "$MODIFIED" ]; then
             echo "No changes to commit"
             exit 0
           fi
@@ -40,6 +42,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add 'parte_1/README.md'
+          echo "$MODIFIED" | xargs -r git add
           git commit -m "chore: renumber README Nº column"
           git push
