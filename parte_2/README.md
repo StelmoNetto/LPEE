@@ -55,12 +55,12 @@ Códigos-fonte demonstrando conceitos fundamentais de alocação dinâmica de me
 |---|---|---|
 |1|[alocacao_de_vetor_VLA.c](alocacao_dinamica/alocacao_de_vetor_VLA.c)|Alocação de vetor e matriz usando VLA (Variable Length Array).|
 |2|[malloc_basico.c](alocacao_dinamica/malloc_basico.c)|Alocação básica de bloco de memória na heap com `malloc` e liberação com `free`.|
-|2|[alocacao_de_tipos_primitivos.c](alocacao_dinamica/alocacao_de_tipos_primitivos.c)|Alocação dinâmica para tipos primitivos com `sizeof`, teste de `NULL` e liberação com `free`.|
-|3|[alocacao_de_vetor_de_tipo_simples.c](alocacao_dinamica/alocacao_de_vetor_de_tipo_simples.c)|Alocação dinâmica de vetor unidimensional com `malloc`, tratamento de erro e liberação.|
-|4|[alocacao_de_vetor_e_errno_perror.c](alocacao_dinamica/alocacao_de_vetor_e_errno_perror.c)|Tratamento e exibição de falha de alocação de memória com `errno`, `ENOMEM`, `strerror` e `perror`.|
-|5|[aloca_matriz2D.c](alocacao_dinamica/aloca_matriz2D.c)|Alocação dinâmica de matriz bidimensional via vetor de ponteiros com tratamento de falhas e desalocação.|
-|6|[aloca_matriz2D_de_coluna_fixa.c](alocacao_dinamica/aloca_matriz2D_de_coluna_fixa.c)|Alocação dinâmica de matriz bidimensional contígua usando ponteiro para vetor de colunas fixas.|
-|7|[alocacao_com_calloc.c](alocacao_dinamica/alocacao_com_calloc.c)|Alocação dinâmica de memória com inicialização automática em zero utilizando a função `calloc`.|
-|8|[realocacao_de_vetor_com_realloc.c](alocacao_dinamica/realocacao_de_vetor_com_realloc.c)|Redimensionamento dinâmico de vetor com `realloc` em operações de expansão e compressão.|
-|9|[alocacao_moderna_de_matriz3D.c](alocacao_dinamica/alocacao_moderna_de_matriz3D.c)|Alocação moderna de matriz 3D em bloco contíguo único e liberação com um único `free`.|
-|10|[alocacao_tradicional_de_matriz3D.c](alocacao_dinamica/alocacao_tradicional_de_matriz3D.c)|Alocação tradicional de matriz 3D em camadas com ponteiro triplo e desalocação hierárquica.|
+|3|[alocacao_de_tipos_primitivos.c](alocacao_dinamica/alocacao_de_tipos_primitivos.c)|Alocação dinâmica para tipos primitivos com `sizeof`, teste de `NULL` e liberação com `free`.|
+|4|[alocacao_de_vetor_de_tipo_simples.c](alocacao_dinamica/alocacao_de_vetor_de_tipo_simples.c)|Alocação dinâmica de vetor unidimensional com `malloc`, tratamento de erro e liberação.|
+|5|[alocacao_de_vetor_e_errno_perror.c](alocacao_dinamica/alocacao_de_vetor_e_errno_perror.c)|Tratamento e exibição de falha de alocação de memória com `errno`, `ENOMEM`, `strerror` e `perror`.|
+|6|[aloca_matriz2D.c](alocacao_dinamica/aloca_matriz2D.c)|Alocação dinâmica de matriz bidimensional via vetor de ponteiros com tratamento de falhas e desalocação.|
+|7|[aloca_matriz2D_de_coluna_fixa.c](alocacao_dinamica/aloca_matriz2D_de_coluna_fixa.c)|Alocação dinâmica de matriz bidimensional contígua usando ponteiro para vetor de colunas fixas.|
+|8|[alocacao_com_calloc.c](alocacao_dinamica/alocacao_com_calloc.c)|Alocação dinâmica de memória com inicialização automática em zero utilizando a função `calloc`.|
+|9|[realocacao_de_vetor_com_realloc.c](alocacao_dinamica/realocacao_de_vetor_com_realloc.c)|Redimensionamento dinâmico de vetor com `realloc` em operações de expansão e compressão.|
+|10|[alocacao_moderna_de_matriz3D.c](alocacao_dinamica/alocacao_moderna_de_matriz3D.c)|Alocação moderna de matriz 3D em bloco contíguo único e liberação com um único `free`.|
+|11|[alocacao_tradicional_de_matriz3D.c](alocacao_dinamica/alocacao_tradicional_de_matriz3D.c)|Alocação tradicional de matriz 3D em camadas com ponteiro triplo e desalocação hierárquica.|
