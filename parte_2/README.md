@@ -53,7 +53,8 @@ Códigos-fonte demonstrando conceitos fundamentais de alocação dinâmica de me
 
 |**Nº**|**Código fonte**|**Descrição**|
 |---|---|---|
-|1|[malloc_basico.c](alocacao_dinamica/malloc_basico.c)|Alocação básica de bloco de memória na heap com `malloc` e liberação com `free`.|
+|1|[alocacao_de_vetor_VLA.c](alocacao_dinamica/alocacao_de_vetor_VLA.c)|Alocação de vetor e matriz usando VLA (Variable Length Array).|
+|2|[malloc_basico.c](alocacao_dinamica/malloc_basico.c)|Alocação básica de bloco de memória na heap com `malloc` e liberação com `free`.|
 |2|[alocacao_de_tipos_primitivos.c](alocacao_dinamica/alocacao_de_tipos_primitivos.c)|Alocação dinâmica para tipos primitivos com `sizeof`, teste de `NULL` e liberação com `free`.|
 |3|[alocacao_de_vetor_de_tipo_simples.c](alocacao_dinamica/alocacao_de_vetor_de_tipo_simples.c)|Alocação dinâmica de vetor unidimensional com `malloc`, tratamento de erro e liberação.|
 |4|[alocacao_de_vetor_e_errno_perror.c](alocacao_dinamica/alocacao_de_vetor_e_errno_perror.c)|Tratamento e exibição de falha de alocação de memória com `errno`, `ENOMEM`, `strerror` e `perror`.|
