@@ -127,11 +127,11 @@ Códigos-fonte focados no uso da palavra-chave inline e static inline para otimi
 |1|[util.h](sub_rotinas/compilacao_separada/static_inline/util.h)|Arquivo de cabeçalho (.h) com a definição inline da função que obtém o máximo entre dois valores inteiros|
 |2|[main.c](sub_rotinas/compilacao_separada/static_inline/main.c)|Programa principal que demonstra o uso da função static inline.|
 
-#### Lista de argumentos variável
+### Lista de argumentos variável
 Único exemplo de código-fonte focado na demonstração do uso de listas de argumentos variável
 |**Nº**|**Código fonte**|**Descrição**|
 |---|---|---|
-[1]|[lista_de_argumentos_variaveis.c](sub_rotinas/lista_de_argumentos_variaveis.c)|Exemplo de função com lista de argumentos variáveis que exibe os valores dos parâmetros de diversos tipos.
+[1]|[lista_de_argumentos_variavel.c](sub_rotinas/lista_de_argumentos_variavel.c)|Exemplo de função com lista de argumentos variáveis que exibe os valores dos parâmetros de diversos tipos.
 
 
 #### Funções auto-referenciadas (recursivas)
