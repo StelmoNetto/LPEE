@@ -64,3 +64,56 @@ Códigos-fonte demonstrando conceitos fundamentais de alocação dinâmica de me
 |9|[realocacao_de_vetor_com_realloc.c](alocacao_dinamica/realocacao_de_vetor_com_realloc.c)|Redimensionamento dinâmico de vetor com `realloc` em operações de expansão e compressão.|
 |10|[alocacao_moderna_de_matriz3D.c](alocacao_dinamica/alocacao_moderna_de_matriz3D.c)|Alocação moderna de matriz 3D em bloco contíguo único e liberação com um único `free`.|
 |11|[alocacao_tradicional_de_matriz3D.c](alocacao_dinamica/alocacao_tradicional_de_matriz3D.c)|Alocação tradicional de matriz 3D em camadas com ponteiro triplo e desalocação hierárquica.|
+
+## Sub-rotinas
+Códigos-fonte demonstrando a definição e o uso de sub-rotinas (procedimentos e funções) em C, mecanismos de passagem de parâmetros por valor e referência, escopo de variáveis, ponteiros para funções, macros e programação modular.
+
+### Sub-rotinas
+Códigos-fonte focados no estudo prático de sub-rotinas, passagem de parâmetros e ponteiros para funções em C.
+
+|**Nº**|**Código fonte**|**Descrição**|
+|---|---|---|
+|1|[exemplo_de_procedimento_sem_parametros.c](sub_rotinas/exemplo_de_procedimento_sem_parametros.c)|Declaração e chamada de procedimento sem parâmetros para exibição de mensagem e término via exit.|
+|2|[exibir_nome_da_sub_rotina_com_prototipo.c](sub_rotinas/exibir_nome_da_sub_rotina_com_prototipo.c)|Declaração de protótipo de procedimento e identificação do nome da sub-rotina via __func__.|
+|3|[passagem_por_valor.c](sub_rotinas/passagem_por_valor.c)|Passagem de parâmetro por valor para sub-rotina com controle de fluxo em estrutura switch.|
+|4|[varios_parametros_por_valor.c](sub_rotinas/varios_parametros_por_valor.c)|Passagem de múltiplos parâmetros por valor para procedimento de cálculo e exibição de soma.|
+|5|[varios_parametros_por_valor_com_prototipo.c](sub_rotinas/varios_parametros_por_valor_com_prototipo.c)|Declaração prévia de protótipo com múltiplos parâmetros por valor e definição posterior da função.|
+|6|[escopo_de_variaveis.c](sub_rotinas/escopo_de_variaveis.c)|Diferenciação entre escopo global e local em procedimento para troca de valores de variáveis.|
+|7|[variavel_estatica.c](sub_rotinas/variavel_estatica.c)|Preservação de estado entre chamadas sucessivas com variável local estática (static).|
+|8|[troca_valores_reais_por_referencia.c](sub_rotinas/troca_valores_reais_por_referencia.c)|Troca de valores de variáveis reais através de passagem de parâmetros por referência com ponteiros.|
+|9|[protecao_contra_alteracao_de_parametro_referencia.c](sub_rotinas/protecao_contra_alteracao_de_parametro_referencia.c)|Proteção contra alteração de dados recebidos por referência através do qualificador const.|
+|10|[passagem_de_vetor_por_parametro_com_decaimento.c](sub_rotinas/passagem_de_vetor_por_parametro_com_decaimento.c)|Passagem de vetor por parâmetro com decaimento para ponteiro e exibição com qualificador const.|
+|11|[passagem_vetor_por_parametro_ponteiro_explicito.c](sub_rotinas/passagem_vetor_por_parametro_ponteiro_explicito.c)|Passagem de vetor por parâmetro através de ponteiro explícito para vetor evitando o decaimento.|
+|12|[passagem_por_parametro_de_vetor_alocado.c](sub_rotinas/passagem_por_parametro_de_vetor_alocado.c)|Passagem de vetor alocado dinamicamente na heap por parâmetro e desalocação com free.|
+|13|[passagem_de_matriz_constante_por_ponteiro.c](sub_rotinas/passagem_de_matriz_constante_por_ponteiro.c)|Passagem de matriz constante por parâmetro comparando arranjo bidimensional e ponteiro duplo.|
+|14|[funcao_fatorial.c](sub_rotinas/funcao_fatorial.c)|Implementação de função com retorno de valor para cálculo de fatorial com tipos da stdint.h.|
+|15|[retorno_de_vetor_matriz.c](sub_rotinas/retorno_de_vetor_matriz.c)|Retorno de ponteiros para vetor e matriz alocados dinamicamente na heap através de funções.|
+|16|[ponteiro_para_funcao.c](sub_rotinas/ponteiro_para_funcao.c)|Passagem de ponteiro para função como parâmetro para verificação de troca de sinal em intervalo.|
+|17|[ponteiro_apelidado_para_funcao.c](sub_rotinas/ponteiro_apelidado_para_funcao.c)|Criação de apelido de tipo com typedef para ponteiro de função e seu uso como parâmetro.|
+
+### Macros
+Códigos-fonte focados no uso do pré-processador para criação de macros parametrizadas e blocos multilinhas.
+
+|**Nº**|**Código fonte**|**Descrição**|
+|---|---|---|
+|1|[macro_modulo.c](sub_rotinas/macro_modulo.c)|Definição de macro parametrizada com operador ternário para cálculo do valor absoluto (módulo).|
+|2|[macro_multilinhas.c](sub_rotinas/macro_multilinhas.c)|Definição de macro multilinha com a estrutura do-while(0) para emissão de mensagens de erro.|
+
+### Compilação separada
+Códigos-fonte focados na modularização de código através da divisão em arquivos de cabeçalho (.h) e de implementação (.c).
+
+|**Nº**|**Código fonte**|**Descrição**|
+|---|---|---|
+|1|[funcoes_vetoriais.h](sub_rotinas/compilacao_separada/funcoes_vetoriais.h)|Arquivo de cabeçalho (.h) com inclusão de guarda, constantes e protótipos de funções vetoriais.|
+|2|[funcoes_vetoriais.c](sub_rotinas/compilacao_separada/funcoes_vetoriais.c)|Implementação modular das funções de leitura, exibição e cálculo de média de elementos de vetor.|
+|3|[main_uso_das_funcoes_vetoriais.c](sub_rotinas/compilacao_separada/main_uso_das_funcoes_vetoriais.c)|Programa principal demonstrando inclusão de cabeçalho customizado e chamada das funções modulares.|
+
+## Extern
+Códigos-fonte demonstrando o compartilhamento de variáveis globais e funções entre múltiplos arquivos com a palavra-chave extern.
+
+|**Nº**|**Código fonte**|**Descrição**|
+|---|---|---|
+|1|[funcoes_vetoriais_e_variaveis_globais.h](sub_rotinas/compilacao_separada/extern/funcoes_vetoriais_e_variaveis_globais.h)|Declaração de variáveis externas com extern, função inline e protótipos em arquivo de cabeçalho.|
+|2|[funcoes_vetoriais_e_variaveis_externas.c](sub_rotinas/compilacao_separada/extern/funcoes_vetoriais_e_variaveis_externas.c)|Definição de variáveis globais compartilhadas, variável de arquivo estática e implementação de sub-rotinas.|
+|3|[main_uso_das_funcoes_vetoriais_e_variaveis_externas.c](sub_rotinas/compilacao_separada/extern/main_uso_das_funcoes_vetoriais_e_variaveis_externas.c)|Programa principal demonstrando modificação de variáveis externas compartilhadas e invocação modular.|
+
