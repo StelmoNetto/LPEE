@@ -98,6 +98,8 @@ Códigos-fonte focados no uso do pré-processador para criação de macros param
 |---|---|---|
 |1|[macro_modulo.c](sub_rotinas/macro_modulo.c)|Definição de macro parametrizada com operador ternário para cálculo do valor absoluto (módulo).|
 |2|[macro_multilinhas.c](sub_rotinas/macro_multilinhas.c)|Definição de macro multilinha com a estrutura do-while(0) para emissão de mensagens de erro.|
+|3|[operadores_pre_processadores_de_macro.c](sub_rotinas/operadores_pre_processadores_de_macro.c)|Demonstração dos operadores de pré-processador # para conversão em cadeia e ## para concatenação de argumentos de macro.|
+|4|[exemplo_de_macro_generic.c](sub_rotinas/exemplo_de_macro_generic.c)|Exemplo de macro genérica que opera sobre diferentes tipos de dados.|
 
 ### Compilação separada
 Códigos-fonte focados na modularização de código através da divisão em arquivos de cabeçalho (.h) e de implementação (.c).
@@ -108,7 +110,7 @@ Códigos-fonte focados na modularização de código através da divisão em arq
 |2|[funcoes_vetoriais.c](sub_rotinas/compilacao_separada/funcoes_vetoriais.c)|Implementação modular das funções de leitura, exibição e cálculo de média de elementos de vetor.|
 |3|[main_uso_das_funcoes_vetoriais.c](sub_rotinas/compilacao_separada/main_uso_das_funcoes_vetoriais.c)|Programa principal demonstrando inclusão de cabeçalho customizado e chamada das funções modulares.|
 
-## Extern
+#### Extern
 Códigos-fonte demonstrando o compartilhamento de variáveis globais e funções entre múltiplos arquivos com a palavra-chave extern.
 
 |**Nº**|**Código fonte**|**Descrição**|
@@ -116,4 +118,21 @@ Códigos-fonte demonstrando o compartilhamento de variáveis globais e funções
 |1|[funcoes_vetoriais_e_variaveis_globais.h](sub_rotinas/compilacao_separada/extern/funcoes_vetoriais_e_variaveis_globais.h)|Declaração de variáveis externas com extern, função inline e protótipos em arquivo de cabeçalho.|
 |2|[funcoes_vetoriais_e_variaveis_externas.c](sub_rotinas/compilacao_separada/extern/funcoes_vetoriais_e_variaveis_externas.c)|Definição de variáveis globais compartilhadas, variável de arquivo estática e implementação de sub-rotinas.|
 |3|[main_uso_das_funcoes_vetoriais_e_variaveis_externas.c](sub_rotinas/compilacao_separada/extern/main_uso_das_funcoes_vetoriais_e_variaveis_externas.c)|Programa principal demonstrando modificação de variáveis externas compartilhadas e invocação modular.|
+
+####Funções inline e static inline
+Códigos-fonte focados no uso da palavra-chave inline e static inline para otimização de código através da substituição de chamadas de função por suas implementações. 
+
+|**Nº**|**Código fonte**|**Descrição**|
+|---|---|---|
+|1|[util.h](sub_rotinas/compilacao_separada/static_inline/util.h)|Arquivo de cabeçalho (.h) com a definição inline da função que obtém o máximo entre dois valores inteiros|
+|2|[main.c](sub_rotinas/compilacao_separada/static_inline/main.c)|Programa principal que demonstra o uso da função static inline.|
+
+#### Lista de argumentos variável
+Único exemplo de código-fonte focado na demonstração do uso de listas de argumentos variável
+|**Nº**|**Código fonte**|**Descrição**|
+|---|---|---|
+[1]|[lista_de_argumentos_variaveis.c](sub_rotinas/lista_de_argumentos_variaveis.c)|Exemplo de função com lista de argumentos variáveis que exibe os valores dos parâmetros de diversos tipos.
+
+
+#### Funções auto-referenciadas (recursivas)
 
