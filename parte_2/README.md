@@ -119,7 +119,7 @@ Códigos-fonte demonstrando o compartilhamento de variáveis globais e funções
 |2|[funcoes_vetoriais_e_variaveis_externas.c](sub_rotinas/compilacao_separada/extern/funcoes_vetoriais_e_variaveis_externas.c)|Definição de variáveis globais compartilhadas, variável de arquivo estática e implementação de sub-rotinas.|
 |3|[main_uso_das_funcoes_vetoriais_e_variaveis_externas.c](sub_rotinas/compilacao_separada/extern/main_uso_das_funcoes_vetoriais_e_variaveis_externas.c)|Programa principal demonstrando modificação de variáveis externas compartilhadas e invocação modular.|
 
-####Funções inline e static inline
+#### Funções inline e static inline
 Códigos-fonte focados no uso da palavra-chave inline e static inline para otimização de código através da substituição de chamadas de função por suas implementações. 
 
 |**Nº**|**Código fonte**|**Descrição**|
