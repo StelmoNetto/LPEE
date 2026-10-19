@@ -16,7 +16,7 @@ int main()
     uint8_t numero;
 
     printf("Entre com um numero para calcular numero!\n");
-    if (scanf("%u", &numero) != 1) return 1;
+    if (scanf("%"SCNu8, &numero) != 1) return 1;
 
     uint64_t fatorialDeNumero = fatorial(numero);
 
