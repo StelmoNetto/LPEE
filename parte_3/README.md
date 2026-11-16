@@ -1,9 +1,16 @@
-# Parte 3 - Estruturas, Campos de Bits e Uniões
+# Parte 3 - Manipulação de Strings, Estruturas, Campos de Bits e Uniões
 
-Este diretório contém os códigos-fonte da **Parte 3** da disciplina de Linguagem de Programação, abrangendo tipos de dados definidos pelo usuário em C: estruturas (`struct`), técnicas de inicialização, passagem por valor e por referência, alinhamento de memória (`alignof` e `alignas`), campos de bits e uniões (`union`).
+Este diretório contém os códigos-fonte da **Parte 3** da disciplina de Linguagem de Programação, abrangendo manipulação de strings, tipos de dados definidos pelo usuário em C: estruturas (`struct`), técnicas de inicialização, passagem por valor e por referência, alinhamento de memória (`alignof` e `alignas`), campos de bits e uniões (`union`).
 
-## Estruturas, Campos de Bits e Uniões
-Códigos-fonte demonstrando a criação e manipulação de tipos compostos heterogêneos, otimização do uso de memória com campos de bits e compartilhamento de região de memória com uniões.
+## Manipulação de Strings, Estruturas, Campos de Bits e Uniões
+Códigos-fonte demonstrando a manipulação de strings, criação e manipulação de tipos compostos heterogêneos, otimização do uso de memória com campos de bits e compartilhamento de região de memória com uniões.
+
+### Manipulação de Strings
+Códigos-fonte focados no estudo prático de manipulação de strings em C.
+|**Nº**|**Código fonte**|**Descrição**|
+|---|---|---|
+|1|[funcoes_de_manipulacao_de_string.c](strings/funcoes_de_manipulacao_de_string.c)|Exemplo de uso das funções de manipulação de strings: strlen, strcmp, strcpy, strcat, strcspn,strchr, strrchr.|
+|2|[argumentos_da_linha_de_comando.c](strings/argumentos_da_linha_de_comando.c)|Exemplo de uso dos argumentos da linha de comando: argc, argv.|
 
 ### Estrutura
 Códigos-fonte focados no estudo prático de estruturas, inicializações, acesso via ponteiros, passagem de parâmetros e alinhamento de memória em C.
