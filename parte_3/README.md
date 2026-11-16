@@ -10,7 +10,7 @@ Códigos-fonte focados no estudo prático de manipulação de strings em C.
 |**Nº**|**Código fonte**|**Descrição**|
 |---|---|---|
 |1|[funcoes_de_manipulacao_de_string.c](strings/funcoes_de_manipulacao_de_string.c)|Exemplo de uso das funções de manipulação de strings: strlen, strcmp, strcpy, strcat, strcspn,strchr, strrchr.|
-|2|[argumentos_da_linha_de_comando.c](strings/argumentos_da_linha_de_comando.c)|Exemplo de uso dos argumentos da linha de comando: argc, argv.|
+|2|[argumentos_da_linha_de_comando.c](strings/argumentos_de_linha_de_comando.c)|Exemplo de uso dos argumentos da linha de comando: argc, argv.|
 
 ### Estrutura
 Códigos-fonte focados no estudo prático de estruturas, inicializações, acesso via ponteiros, passagem de parâmetros e alinhamento de memória em C.
