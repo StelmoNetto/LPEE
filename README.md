@@ -7,4 +7,5 @@ Os códigos fontes estão organizados pelos assuntos de cada avaliação:
 |--|--|
 |[1º parte](https://github.com/StelmoNetto/LPEE/blob/master/parte_1/README.md "README.md")|**Primeira avaliação**: introdução a linguagem de programação C, estruturas condicionais e de repetição.|
 |[2º parte](https://github.com/StelmoNetto/LPEE/blob/master/parte_2/README.md "README.md")|**Segunda avaliação**: vetores e matrizes multidimensionais, ponteiro, alocação dinâmica e sub-rotinas.|
+|[3º parte](https://github.com/StelmoNetto/LPEE/blob/master/parte_3/README.md "README.md")|**Terceira avaliação**: manipulação de strings, estrutura, campo de bits e união.|
 
